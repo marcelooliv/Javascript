@@ -1,5 +1,6 @@
 //código usando function
-/*'use strict';
+/*
+'use strict';
 
 function Animal(qtdPatas){
     this.qtdPatas = qtdPatas;
@@ -10,9 +11,10 @@ function Cachorro(morde){
 }
 const pug = new Cachorro(false);
 console.log(pug);
+*/
 
 //mesmo código usando classes
-'use strict';*/
+'use strict';
 
 class Animal {
     constructor(qtdPatas){

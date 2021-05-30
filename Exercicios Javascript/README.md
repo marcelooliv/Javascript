@@ -1,1 +1,1 @@
-# Exercícios básicos com JS e HTML
+## Exercícios básicos com JS e HTML

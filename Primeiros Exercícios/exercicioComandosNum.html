@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers</title>
+    <style>
+        body {
+            background-color:indigo;
+            color:rgb(255, 255, 255);
+            font-size: 20pt;
+            font-style: oblique;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        alert("Olá usuário. A partir desse momento você responderá algumas perguntas.")
+        var porhora = Number(prompt("quanto você ganha por hora?"))
+        var horastrab = Number(prompt("quantas horas você trabalha por dia?"))
+        var salario = porhora*horastrab
+        var mensal = (salario*22).toFixed(2)
+
+        document.write(`Seu salário é de R$${salario.toFixed(2)} reais por dia.<br/>`)
+        document.write(`Trabalhando 5 dias por semana, em um mês de 30 dias, você receberá: R$${mensal} ao final do mês.<br/>Dose de sabedoria do grande mestre tatu: `)
+        
+        if(mensal<='2500.00')
+        {
+            alert ("ixi amigão, tá foda pra tu.")
+        }
+        else
+        {
+            alert("ok, já da pra pagar o uber.")
+        }
+        document.write(prompt("barabim barabum? manda a braba"))
+        //o comando var.toFixed() serve pra fixar no numero de casas decimais que vc quer mostrar depois do ponto
+        /*existe um comando que é var.toFixed().replace('.',',') que troca o ponto por virgula se vc quiser mostrar o numero com virgula
+        como é mais comum*/
+        /*tmb existe um comando chamado var.LocaleString('pt-BR', {style: 'currency', currency: 'BRL'}), onde
+        o comando serve pra localizar a String em um lugar do mundo, o style: 'currency' pra identificar que o estilo
+        a ser mostrado é monetário e o currency: 'BRL' é a moeda a ser mostrada*/ 
+
+    </script>
+    
+</body>
+</html>

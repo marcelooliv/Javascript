@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#mamacita{
+            font: normal 20pt arial;
+            background-color: crimson;
+            color:ghostwhite;
+            width: 300px;
+            height: 300px;
+            line-height: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id='mamacita'>UMA VEZ FLAMENGO</div>
+
+    <script>
+        var area = document.querySelector('div#mamacita')
+        area.addEventListener('click', clicar)
+        area.addEventListener('mouseenter', entrar)
+        area.addEventListener('mouseout', sair)
+        function clicar(){
+        area.style.background = 'black'
+        area.style.color = 'white'
+        area.innerText = 'FLAMENGO SEMPRE'
+        }
+        function entrar(){
+            area.style.background = 'crimson'
+            area.style.color = 'black'
+            area.innerText = 'SEMPRE FLAMENGO'
+        }
+        function sair(){
+            area.style.background = 'black'
+            area.style.color = 'crimson'
+            area.innerText = 'EU EI DE SER'
+        }
+    /*ou tmb dá pra colocar " onclick='clicar()' onmouseenter='entrar()' onmouseout='sair()' " diretamente no div,
+    logo depois do nome do id q vc deu, no caso, 'mamacita', pq o addEventListener só funciona 
+    se declarar a variável antes da function */ 
+    </script>
+    
+</body>
+</html>

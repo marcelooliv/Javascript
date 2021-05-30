@@ -1,0 +1,75 @@
+body{
+    background-color: azure;
+    background-image: url(Sombras-Jin-Woo.png);
+}
+.texto1{
+    background-color: white;
+    font-size: 20px;
+    border: solid black;
+    border-width: 10px;
+    width: 200px;
+    margin-left: 650px;
+    padding: 20px;
+    border-radius: 5%;
+    text-align: center;
+    
+}
+.title{
+    background-color: white;
+    width: 9cm;
+    border:solid white;
+    border-width: 1px;
+    border-radius: 10px;
+
+
+    
+}
+.subtitle{
+    background-color: white;
+    width: 1.5cm;
+    border: solid white;
+    border-radius: 10px;
+}
+.mainarticle{
+    background-color: white;
+    width: 5.2cm;
+    border: solid white;
+    border-radius: 10px;
+}
+footer{
+    background-color: white;
+    width: 8cm;
+    border: solid white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.imagem{
+    border-radius: 50px;
+    margin-bottom: 0.5cm;
+}
+ul{
+    list-style-position:unset;
+}
+.tabela1{
+            font-family: verdana;
+            background-color: azure;
+            font-weight: bold;
+            border-radius: 5px;
+            border: solid azure;
+}
+.login1{
+           font-family: verdana;
+           background-color: azure;
+           font-weight: bold;
+           border-radius: 3px;
+           border: solid azure;
+           
+}
+.cadastro1{
+             background-color: azure;
+             border: solid azure;
+             border-radius: 6px;
+             font-family: verdana;
+             font-weight: bold;
+       
+}

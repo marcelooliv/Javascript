@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+    <style>
+        body{
+            background-color: cornflowerblue;
+            color: cornsilk;
+            font: normal 20pt oblique;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var testeNome = prompt("Qual o nome do brabo?")
+        testeNome=="Marcelo"?alert("acerto miseravi"):alert(`não foi dessa vez ${testeNome}`)
+        //aqui o "?" funciona como se fosse um "se" e o ":" como um "senão" mas só funciona com testes simples
+        var idade = prompt("diga sua idade")
+        var sexo = prompt("e seu sexo?")
+        if(idade>=18&&sexo=="Masculino")
+        {
+            alert("ok, vc pode entrar na área restrita")
+            document.write("ÁREA RESTRITA")
+        }
+        else
+        {
+            idade<18?alert("desgurpe jovem gafanhoto, novo demais"):alert("muié na net kkkkkk")
+        }
+    </script>
+</body>
+</html>
